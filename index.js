@@ -2,9 +2,9 @@ var Kahoot = require("kahoot.js-updated");
 var KahootApi = [];
 var random = require("random-name");
 const prompt = require('prompt-sync')();
-const pin = Number(prompt("Pin? (ChaseDestroyer)> "));
-const name = prompt("Name? (ChaseDestroyer)> ")+" (Botted by ChaseDestroyer)"
-var bots = Number(prompt("Bots? (ChaseDestroyer)> "));
+const pin = 1685038;
+const name = "стаспр";
+var bots = 15;
 var ans;
 for (var i=0; i<bots; i++) {
     KahootApi.push(new Kahoot);
